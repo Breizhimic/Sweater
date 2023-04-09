@@ -1,1 +1,58 @@
-aba
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bakbak+One&display=swap');
+/* font-family: 'Faster One', cursive; */
+
+* {
+
+  --secondary-font : 'Faster One', cursive;
+  --primary-font : monospace;
+  --third-font : 'Bakbak One', cursive;
+  --black : #282828;
+  --white : #fff;
+  --grey: #e9e9e9;
+  --primary-color: #6897ad;
+  --secondary-color: #c36924;
+  --cursor-1: url("") 32 15, auto;
+  --cursor-2: url(""), pointer;
+}
+
+    
+html {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  overflow-x: hidden;
+  font-family: var(--primary-font);
+  background-color: var(--white);
+  cursor: var(--cursor-1);
+  scroll-behavior: smooth;
+}
+
+.nav-container {
+  background-color: var(--white);
+  color: #fff;
+}
+
+
+ul {
+    list-style-type: none;
+    display: inline;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+  
+li {
+    display: inline;
+  }
+
+nav ul li.bg {
+    padding: 0 15px 0 8px;
+    font-size: 28px;
+  }
