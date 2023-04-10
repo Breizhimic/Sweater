@@ -27,8 +27,8 @@ html, body, header {
 .container {
     margin: 0;
     padding: 0;
-    width: 100vw;
-    height: 7vh;
+    width: 100px;
+    height: 10px;
     background-color: #24252b;
     position: absolute;
     display: flex;
@@ -65,5 +65,10 @@ li:hover {
 }
 
 .logo {
-  width: 10%;
+  width: 50%;
+}
+
+nav ul li.bg {
+  padding: 0 15px 0 8px;
+  font-size: 28px;
 }
