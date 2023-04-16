@@ -13,31 +13,69 @@ body {
 
 .container {
     display: flex;
+    width: 1461px;
+    height: 927px;
+    margin-top: 50px;
   }
   
 .container-left {
-    width: 100%;
-    margin-left: 900px;
+    width: 50%;
+    display: block;
 }
   
 .container-right {
-    width: 100%;
+    width: 50%;
 }
 
 .separatora {
-    width: 40px;
+    display: block;
+    width: 2px;
+    height: 38%;
     background-color: black;
-    margin-left: 700px;
-    margin-right: -700px;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.separatorb {
+  width: 2px;
+  height: 38%;
+  background-color: black;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.or {
+  font-family: "Gill Sans", sans-serif;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+}
+
+.orc {
+  margin-top: 0.4%;
+  display: block;
+  width: 4%;
+  height: 10%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300&display=swap');
 
 .modal {
-  background: #FFFFFF;
   box-shadow: 0px 187px 75px rgba(0, 0, 0, 0.01), 0px 105px 63px rgba(0, 0, 0, 0.05), 0px 47px 47px rgba(0, 0, 0, 0.09), 0px 12px 26px rgba(0, 0, 0, 0.1), 0px 0px 0px rgba(0, 0, 0, 0.1);
   border-radius: 16px;
   max-width: 450px;
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%,-50%);
 }
 .form {
   display: flex;
