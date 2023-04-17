@@ -6,17 +6,56 @@
     box-sizing: border-box;
 }
 
+.separatora {
+    width: 44%;
+    height: 0.5px;
+    background-color: black;
+    position: absolute;
+    top: 85%;
+    left: 46%;
+    transform: translate(-100%,-50%);
+  }
+
+.separatorb {
+  width: 44%;
+  height: 0.5px;
+  background-color: black;
+  position: absolute;
+  top: 85%;
+  left: 54%;
+  transform: translate(00%,-50%);
+}
+
+.or {
+    font-family: "OCR A Std", monospace;
+    font-size: 1.6em;
+    text-align: center;
+    font-weight: bold;
+    letter-spacing: -3px;
+}
+  
+.orc {
+    margin-top: 0.4%;
+    display: block;
+    width: 10%;
+    height: 10%;
+    position: absolute;
+    top: 87.2%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
 .menu {
     height: 10%;
     background-color: O#fff;
     position: relative;
-    width: 90%;
+    width: 97%;
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     border-radius: 20px 20px;
     box-shadow: 0 10px 25px 0 rgba(0, 0, 0, 0.6);
     position: absolute;
-    top: 90%;
+    top: 93%;
     left: 50%;
     transform: translate(-50%, -50%);
     box-sizing: border-box;
