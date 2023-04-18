@@ -27,6 +27,40 @@ body {
     width: 50%;
 }
 
+.imgpanier {
+  width: 40%;
+  display: block;
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+}
+.cart {
+  display: block;
+  width: 24%;
+  height: 20%;
+  position: absolute;
+  top: 46%;
+  left: 29%;
+  transform: translate(-50%,-50%);
+}
+
+.carta {
+  font-family: "OCR A Std", monospace;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
+.cartb {
+  font-family: "OCR A Std", monospace;
+  font-size: 1.3em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -2px;
+}
+
 .separatora {
     display: block;
     width: 2px;
@@ -218,3 +252,59 @@ body {
   transform: scale(0.95);
 }
 
+
+
+.cta {
+  border: none;
+  background: none;
+  display: block;
+  position: absolute;
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.cta span {
+  padding-bottom: 7px;
+  letter-spacing: 3px;
+  font-size: 16px;
+  padding-right: 15px;
+  text-transform: uppercase;
+}
+
+.cta svg {
+  transform: translateX(-8px);
+  transition: all 0.3s ease;
+}
+
+.cta:hover svg {
+  transform: translateX(0);
+}
+
+.cta:active svg {
+  transform: scale(0.8);
+}
+
+.hover-underline-animation {
+  position: relative;
+  color: black;
+  padding-bottom: 20px;
+}
+
+.hover-underline-animation:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.cta:hover .hover-underline-animation:after {
+  transform: scaleX(1.25);
+  transform-origin: bottom left;
+}
