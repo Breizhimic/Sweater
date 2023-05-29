@@ -8,6 +8,15 @@ body {
     justify-content: center;
 }
 
+.containertout {
+  height: 95%;
+  width: 100%;
+  position: absolute;
+  margin-top: 50px;
+  top: 0%;
+  left: 0%;
+}
+
 .containerinfo {
     height: 80%;
     width: 30%;
@@ -157,3 +166,47 @@ body {
   .checkout:active {
     transform: scale(0.95);
   }
+
+.containercommande {
+    height: 80%;
+    width: 30%;
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgba(0,0,0,.6);
+    border-radius: 10px;
+}
+
+.titrecommande {
+  position: absolute;
+  top: 8%;
+  left: 50%;
+  width: 400px;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  border: none;
+  font-family: "OCR A Std", monospace;
+  font-size: 1.5em;
+  text-align: center;
+  font-weight: bold;
+  letter-spacing: -2px;
+  text-decoration: underline;
+}
+
+.contenuecommande {
+  height: 80%;
+  width: 90%;
+  position: absolute;
+  top: 55%;
+  left: 50%;
+  padding: 40px;
+  transform: translate(-50%, -50%);
+  border: none;
+  font-family: "OCR A Std", monospace;
+  font-size: 1.3em;
+  text-align: left;
+  letter-spacing: -2px;
+}
