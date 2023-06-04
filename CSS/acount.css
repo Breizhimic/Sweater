@@ -82,6 +82,18 @@ body {
   background-color: transparent
 }
 
+.containera:hover {
+  background-color: transparent
+}
+
+.containerb:hover {
+  background-color: transparent
+}
+
+.containerc:hover {
+  background-color: transparent
+}
+
 .titrecommande {
 position: absolute;
 top: 8%;
@@ -124,6 +136,9 @@ letter-spacing: -2px;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
 
 .titrea {
@@ -178,6 +193,9 @@ letter-spacing: -2px;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
 
 .titreb {
@@ -222,6 +240,9 @@ letter-spacing: -2px;
   box-sizing: border-box;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
+  background-color: transparent;
+  cursor: pointer;
+  border: none;
 }
 
 .titrec {
@@ -365,6 +386,12 @@ letter-spacing: -2px;
   text-align: center;
 }
 
+.headset {
+  align-items: center;
+  text-align: center;
+}
+
+
 .buttonorder {
   background-color: transparent;
   background: transparent;
@@ -377,4 +404,5 @@ letter-spacing: -2px;
   height: 100%;
   width: 100%;
 }
+
 
