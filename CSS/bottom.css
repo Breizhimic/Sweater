@@ -1,10 +1,12 @@
 .footer-basic {
     padding:0px 0;
-    background-color:transparent;
-    color:#42051d;
+    background: linear-gradient(#5e2754, #c42e2e);
+    color:rgb(255, 255, 255);
     width: 100%;
     top: 45%;
     position: relative;
+    padding-bottom: 10px;
+    padding-top: 25px;
   }
     
   .footer-basic .social {
@@ -23,7 +25,7 @@
     margin:0 0px;
     color:inherit;
     opacity:0.75;
-    margin-left: 100px;
+    margin-left: 300px;
   }
   
   .footer-basic .social > a:hover {
@@ -39,6 +41,5 @@
   }
 
   .social {
-    display: flex;
-    justify-content: space-between;
+    margin-right: 300px;
   }
