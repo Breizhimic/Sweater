@@ -121,7 +121,7 @@ transform: translate(-50%, -50%);
 border: none;
 font-family: "OCR A Std", monospace;
 font-size: 1.3em;
-text-align: left;
+text-align: center;
 letter-spacing: -2px;
 }
 
@@ -170,6 +170,7 @@ font-family: "OCR A Std", monospace;
 font-size: 1.3em;
 text-align: left;
 letter-spacing: -2px;
+text-align: center;
 }
 
 .containerleft {
@@ -225,7 +226,7 @@ transform: translate(-50%, -50%);
 border: none;
 font-family: "OCR A Std", monospace;
 font-size: 1.3em;
-text-align: left;
+text-align: center;
 letter-spacing: -2px;
 }
 
@@ -272,7 +273,7 @@ transform: translate(-50%, -50%);
 border: none;
 font-family: "OCR A Std", monospace;
 font-size: 1.3em;
-text-align: left;
+text-align: center;
 letter-spacing: -2px;
 }
 .eye {
@@ -391,6 +392,10 @@ letter-spacing: -2px;
   text-align: center;
 }
 
+.stars {
+  align-items: center;
+  text-align: center;
+}
 
 .buttonorder {
   background-color: transparent;
