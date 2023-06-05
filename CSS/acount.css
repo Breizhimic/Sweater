@@ -90,10 +90,6 @@ body {
   background-color: transparent
 }
 
-.containerc:hover {
-  background-color: transparent
-}
-
 .titrecommande {
 position: absolute;
 top: 8%;
@@ -242,7 +238,6 @@ letter-spacing: -2px;
   box-shadow: 0 15px 25px rgba(0,0,0,.6);
   border-radius: 10px;
   background-color: transparent;
-  cursor: pointer;
   border: none;
 }
 
@@ -392,10 +387,6 @@ letter-spacing: -2px;
   text-align: center;
 }
 
-.stars {
-  align-items: center;
-  text-align: center;
-}
 
 .buttonorder {
   background-color: transparent;
@@ -408,6 +399,112 @@ letter-spacing: -2px;
 .mo {
   height: 100%;
   width: 100%;
+}
+
+
+.rating {
+  display: inline-block;
+  font-size: 0;
+  position: relative;
+  text-transform: capitalize;
+  padding: 0 50px 8%;
+  color: gray;
+  align-items: center;
+  text-align: center;
+  margin-top: -100px;
+}
+
+.rating label {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  font-size: 50px;
+  cursor: pointer;
+}
+.rating label::before {
+  content: "\2606";
+  display: inline-block;
+  transition: 0.2s;
+}
+.rating label span {
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  height: 20px;
+  font-size: 1rem;
+  white-space: nowrap;
+  transition: 0.15s ease-out;
+  pointer-events: none;
+  letter-spacing: -2px;
+  transform: translateY(-50%);
+}
+.rating label:hover span {
+  opacity: 1;
+  transform: none;
+  letter-spacing: 0;
+}
+.rating label:hover::before {
+  color: orange;
+  opacity: 0.6;
+  filter: drop-shadow(0 0 4px);
+}
+.rating label:hover ~ *::before {
+  color: orange;
+  opacity: 0.6;
+  filter: drop-shadow(0 0 4px);
+}
+.rating input:checked ~ label::before {
+  content: "\2605";
+  color: orange;
+  filter: drop-shadow(0 0 4px);
+  transform: rotate(0.2turn);
+  transition-delay: calc(0.1 * attr(data-idx integer));
+}        
+
+.checkouta {
+  position: relative;
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  border-radius: 0.8em;
+  border: none;
+  background: rgba(0, 0, 0, 0.466);
+  color: #787d8d;
+  overflow: hidden;
+  margin-top: -20px;
+}
+.checkouta span {
+  position: relative;
+  transition: color 0.6s;
+  display: inline-flex;
+  align-items: center;
+  padding: 0.8em 1.2em 0.8em 1.05em;
+}
+.checkouta::before,
+.checkouta::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+.checkouta::before {
+  content: "";
+  background: rgba(143, 32, 75, 0.63);
+  width: 120%;
+  left: -10%;
+  transform: skew(30deg);
+  transition: transform 0.5s cubic-bezier(0.3, 1, 0.8, 1);
+}
+.checkouta:hover::before {
+  transform: translate3d(100%, 0, 0);
+}
+.checkouta:active {
+  transform: scale(0.95);
 }
 
 
