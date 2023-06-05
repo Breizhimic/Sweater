@@ -387,6 +387,10 @@ letter-spacing: -2px;
   text-align: center;
 }
 
+.partner {
+  align-items: center;
+  text-align: center;
+}
 
 .buttonorder {
   background-color: transparent;
