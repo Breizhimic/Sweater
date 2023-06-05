@@ -134,7 +134,7 @@
         </div>
       </div>
     </button>
-    <button class="containerc" onclick="window.location.href='index.html'">
+    <div class="containerc">
       <div class="titrec">
         Rate Us
       </div>
@@ -145,11 +145,29 @@
         <br>
         <br>
         <br>
-        <div class="stars">
-          <i class="fa-sharp fa-solid fa-star fa-2xl" style="color: #42051d;"></i>
-        </div>
+        <form>
+          <div class="rating">
+              <input type='radio' hidden name='rate' id='rating_5' data-idx='0'>	
+              <label for='rating_5'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_4' data-idx='1'>
+              <label for='rating_4'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_3' data-idx='2'>
+              <label for='rating_3'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_2' data-idx='3'>
+              <label for='rating_2'></label>
+          
+              <input type='radio' hidden name='rate' id='rating_1' data-idx='4'>
+              <label for='rating_1'></label>
+          </div>
+        </form>
+        <button class="checkouta" style="cursor: pointer;">
+          <span>Save</span>
+        </button>
       </div>
-    </button>
+    </div>
   </div>
  </body>
 </html>
